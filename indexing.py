@@ -1,0 +1,10 @@
+import numpy as np
+arr=np.array([2,3,4,5])
+# a=(arr[0])
+# print(a)
+print(arr[-1])
+arr1=np.array([[2,3,4],[5,8,9],[56,9,7]])
+print(arr1[0,2])
+arr2=np.array([[[1,2],[2,4]],[[3,9],[4,0]]])
+print(arr2[0,0,1])
+print(arr2.ndim)
